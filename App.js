@@ -106,14 +106,14 @@ const[showmodal,setShowmodal]=useState(false);
      onRequestClose={() => setShowmodal(false)}
      shouldCloseOnEsc={true}>
      
-     <View style={{backgroundColor:'#ffffff',margin:60,padding:40,borderRadius:20,flex:0.3,marginTop:400}}>
-     <Text style={{fontSize:30}}>Hello World</Text>
+     <View style={{backgroundColor:'#D3D3D3',margin:40,padding:60,borderRadius:20,flex:0.3,marginTop:300,marginRight:90}}>
+     <Text style={{fontSize:30,marginTop:40}}>Hello World</Text>
     
      <View style={styles.modalHeaderCloseText}>
      <TouchableHighlight onPress={() => {
       setShowmodal(false)
       }}>
-      <Text style={{marginTop:-70,marginLeft:190,fontSize:20,color:'black'}}>X</Text>    
+      <Text style={{marginTop:-110,marginLeft:150,fontSize:20,color:'black'}}>X</Text>    
      </TouchableHighlight>
      </View> 
    
