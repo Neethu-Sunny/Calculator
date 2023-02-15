@@ -113,7 +113,7 @@ const[showmodal,setShowmodal]=useState(false);
      <TouchableHighlight onPress={() => {
       setShowmodal(false)
       }}>
-      <Text style={{marginTop:-110,marginLeft:150,fontSize:20,color:'black'}}>X</Text>    
+      <Text style={{marginTop:-110,marginLeft:150,fontSize:20}}>X</Text>    
      </TouchableHighlight>
      </View> 
    
